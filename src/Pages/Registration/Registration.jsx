@@ -63,35 +63,35 @@ const Registration = () => {
                             <form onSubmit={handleRegistration}>
                                 <div className="form-control">
                                     <label className="label">
-                                        <span className="label-text">Full Name</span>
+                                        <span className="label-text text-orange-500">Full Name</span>
                                     </label>
-                                    <input type="name" name="name" placeholder="Full name" className="input input-bordered" required />
+                                    <input type="name" name="name" placeholder="Full name" className="border-1 border-orange-500 input input-bordered" required />
                                 </div>
                                 <div className="form-control">
                                     <label className="label">
-                                        <span className="label-text">Email</span>
+                                        <span className="label-text text-orange-500">Email</span>
                                     </label>
-                                    <input type="email" name="email" placeholder="email" className="input input-bordered" required/>
+                                    <input type="email" name="email" placeholder="email" className="border-1 border-orange-500 input input-bordered" required/>
                                 </div>
                                 <div className="form-control">
                                     <label className="label">
-                                        <span className="label-text">Image Url</span>
+                                        <span className="label-text text-orange-500">Image Url</span>
                                     </label>
-                                    <input type="text" name="url" placeholder="image url" className="input input-bordered" required/>
+                                    <input type="text" name="url" placeholder="image url" className="border-1 border-orange-500 input input-bordered" required/>
                                 </div>
                                 <div className="form-control">
                                     <label className="label">
-                                        <span className="label-text">Password</span>
+                                        <span className="label-text text-orange-500">Password</span>
                                     </label>
-                                    <input type="password" name="password" placeholder="password" className="input input-bordered" required/>
+                                    <input type="password" name="password" placeholder="password" className="border-1 border-orange-500 input input-bordered" required/>
                                 </div>
                                 <div className="form-control mt-6 p-0">
-                                    <button className="btn btn-neutral">Register</button>
+                                    <button className="btn bg-white  hover:bg-orange-400 hover:text-white text-orange-500 border-1 border-orange-400">Register</button>
                                     <ToastContainer></ToastContainer>
                                 </div>
                             </form>
-                            <label className="label">
-                                Have an account? <Link to="/login" className="label-text-alt link link-hover">Please Login</Link>
+                            <label className="label text-orange-500">
+                                Have an account? <Link to="/login" className="label-text-alt link link-hover text-orange-500">Please Login</Link>
                             </label>
                             <SocialLogin></SocialLogin>
                         </div>
