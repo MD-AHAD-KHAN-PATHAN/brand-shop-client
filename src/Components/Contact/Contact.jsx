@@ -6,7 +6,7 @@ const Contact = () => {
 
     return (
 
-        <div className="grid grid-cols-2">
+        <div className="grid md:grid-cols-2 grid-cols-1">
             <div className="">
                 <h1 className="text-4xl font-bold">Contact Information</h1>
                 <p className="font-bold my-6 flex items-center gap-2"><span className='text-orange-400'><MdMarkEmailRead></MdMarkEmailRead></span>abcd@gmail.com</p>
@@ -20,7 +20,7 @@ const Contact = () => {
                     
                 </div>
             </div>
-            <div>
+            <div className='md:mt-0 mt-6'>
 
                 <form>
                     <input className="w-full p-4 border-2 hover:shadow-xl border-orange-400 rounded-md" type="name" name="name" placeholder="Enter Your Full Name" />
