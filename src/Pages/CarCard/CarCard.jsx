@@ -23,9 +23,11 @@ const CarCard = ({ car }) => {
                     <div className='flex justify-between'>
                         <Link to={`/update/${_id}`}>
                             <button className='flex items-center py-2 px-4 bg-orange-400 font-bold text-white rounded-md border-2 border-orange-600'>Update</button>
-
                         </Link>
-                        <button className='flex items-center py-2 px-4 bg-orange-400 font-bold text-white rounded-md border-2 border-orange-600'>Details</button>
+                        
+                        <Link to={`/details/${_id}`}>
+                            <button className='flex items-center py-2 px-4 bg-orange-400 font-bold text-white rounded-md border-2 border-orange-600'>Details</button>
+                        </Link>
                     </div>
                 </div>
             </div>

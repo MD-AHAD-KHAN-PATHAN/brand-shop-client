@@ -16,9 +16,9 @@ const RollsRoyceInfo = () => {
 
         <div>
             <Slider photo={photo}></Slider>
-            <div className="m-24 min-h-screen">
-                <h1 className="text-5xl font-bold text-center mb-8">LATEST VEHICLES ON SALE</h1>
-                <div className="grid grid-cols-3 gap-4">
+            <div className="lg:m-24 md:m-12 m-4 min-h-screen">
+                <h1 className="lg:text-5xl md:text-3xl text-xl font-bold text-center mb-8">LATEST VEHICLES ON SALE</h1>
+                <div className="grid lg:grid-cols-3 md:grid-cols-2 grid-cols-1 gap-4">
                     {
                         cars?.map(car => <CarCard key={car._id} car={car}></CarCard>)
                     }
