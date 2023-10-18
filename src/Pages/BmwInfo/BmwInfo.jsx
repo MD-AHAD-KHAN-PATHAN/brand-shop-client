@@ -2,17 +2,18 @@ import { useLoaderData } from "react-router-dom";
 import Slider from "../Slider/Slider";
 import CarCard from "../CarCard/CarCard";
 
-const BugattiInfo = () => {
+const BmwInfo = () => {
 
     const cars = useLoaderData();
 
-    const photo1 = "https://i.ibb.co/GtM7F1V/tim-meyer-t3vu-JWHY7w-unsplash.jpg";
-    const photo2 = "https://i.ibb.co/GtM7F1V/tim-meyer-t3vu-JWHY7w-unsplash.jpg";
-    const photo3 = "https://i.ibb.co/GtM7F1V/tim-meyer-t3vu-JWHY7w-unsplash.jpg";
+    const photo1 = "https://i.ibb.co/s6G0JhK/eugene-chystiakov-Bm-OTZ0-Dqc-k-unsplash.jpg";
+    const photo2 = "https://i.ibb.co/s6G0JhK/eugene-chystiakov-Bm-OTZ0-Dqc-k-unsplash.jpg";
+    const photo3 = "https://i.ibb.co/s6G0JhK/eugene-chystiakov-Bm-OTZ0-Dqc-k-unsplash.jpg";
 
     const photo = {photo1, photo2, photo3}
 
     return (
+
         <div>
             <Slider photo={photo}></Slider>
             <div className="m-24 min-h-screen">
@@ -23,11 +24,9 @@ const BugattiInfo = () => {
                     }
                 </div>
             </div>
-
-
-
         </div>
+
     );
 };
 
-export default BugattiInfo;
+export default BmwInfo;

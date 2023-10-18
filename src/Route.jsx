@@ -8,6 +8,11 @@ import AddProduct from "./Pages/AddProduct/AddProduct";
 import MyCart from "./Pages/MyCart/MyCart";
 import PrivateRoute from "./Components/PrivateRoute/PrivateRoute";
 import BugattiInfo from "./Pages/BugattiInfo/BugattiInfo";
+import BmwInfo from "./Pages/BmwInfo/BmwInfo";
+import AudiInfo from "./Pages/AudiInfo/AudiInfo";
+import LamborghiniInfo from "./Pages/LamborghiniInfo/LamborghiniInfo";
+import FerrariInfo from "./Pages/FerrariInfo/FerrariInfo";
+import RollsRoyceInfo from "./Pages/RollsRoyceInfo/RollsRoyceInfo";
 
 const Route = createBrowserRouter([
     {
@@ -37,10 +42,33 @@ const Route = createBrowserRouter([
             },
             {
                 path: '/bugattiInfo',
-                element: <BugattiInfo></BugattiInfo>
+                element: <BugattiInfo></BugattiInfo>,
+                loader: () => fetch('http://localhost:5000/bugatti')
             },
             {
-
+                path: '/audiInfo',
+                element: <AudiInfo></AudiInfo>,
+                loader: () => fetch('http://localhost:5000/audi')
+            },
+            {
+                path: '/bmwInfo',
+                element: <BmwInfo></BmwInfo>,
+                loader: () => fetch('http://localhost:5000/bmw')
+            },
+            {
+                path: '/lamborghiniInfo',
+                element: <LamborghiniInfo></LamborghiniInfo>,
+                loader: () => fetch('http://localhost:5000/lamborghini')
+            },
+            {
+                path: '/ferrariInfo',
+                element: <FerrariInfo></FerrariInfo>,
+                loader: () => fetch('http://localhost:5000/ferrari')
+            },
+            {
+                path: '/rollsroyceInfo',
+                element: <RollsRoyceInfo></RollsRoyceInfo>,
+                loader: () => fetch('http://localhost:5000/rollsroyce')
             }
         ]
         
