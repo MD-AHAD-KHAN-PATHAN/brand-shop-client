@@ -1,8 +1,9 @@
 import { BsFillStarFill, BsCarFrontFill } from 'react-icons/bs';
 import { BiSolidDollarCircle } from 'react-icons/bi';
-const CarCard = ({car}) => {
+import { Link } from 'react-router-dom';
+const CarCard = ({ car }) => {
 
-    const { brand, name, photo, price, title, rating, condition } = car;
+    const { _id, brand, name, photo, price, title, rating, condition } = car;
 
     return (
         <div className="">
@@ -20,11 +21,13 @@ const CarCard = ({car}) => {
                         <button className='flex py-2 px-4 items-center bg-gray-300' ><span className='text-orange-500 mr-2'><BsCarFrontFill></BsCarFrontFill></span>{condition}</button>
                     </div>
                     <div className='flex justify-between'>
-                        <button className='flex items-center py-2 px-4 bg-orange-400 font-bold text-white rounded-md border-2 border-orange-600'>Update</button>
+                        <Link to={`/update/${_id}`}>
+                            <button className='flex items-center py-2 px-4 bg-orange-400 font-bold text-white rounded-md border-2 border-orange-600'>Update</button>
+
+                        </Link>
                         <button className='flex items-center py-2 px-4 bg-orange-400 font-bold text-white rounded-md border-2 border-orange-600'>Details</button>
                     </div>
                 </div>
-
             </div>
         </div>
     );

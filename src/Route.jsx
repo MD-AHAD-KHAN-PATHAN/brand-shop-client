@@ -13,6 +13,7 @@ import AudiInfo from "./Pages/AudiInfo/AudiInfo";
 import LamborghiniInfo from "./Pages/LamborghiniInfo/LamborghiniInfo";
 import FerrariInfo from "./Pages/FerrariInfo/FerrariInfo";
 import RollsRoyceInfo from "./Pages/RollsRoyceInfo/RollsRoyceInfo";
+import UpdateProduct from "./Pages/UpdateProduct/UpdateProduct";
 
 const Route = createBrowserRouter([
     {
@@ -69,6 +70,11 @@ const Route = createBrowserRouter([
                 path: '/rollsroyceInfo',
                 element: <RollsRoyceInfo></RollsRoyceInfo>,
                 loader: () => fetch('http://localhost:5000/rollsroyce')
+            },
+            {
+                path: '/update/:id',
+                element: <UpdateProduct></UpdateProduct>,
+                loader: ({params}) => fetch(`http://localhost:5000/car/${params.id}`)
             }
         ]
         
