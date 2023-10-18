@@ -7,6 +7,7 @@ import Login from "./Pages/Login/Login";
 import AddProduct from "./Pages/AddProduct/AddProduct";
 import MyCart from "./Pages/MyCart/MyCart";
 import PrivateRoute from "./Components/PrivateRoute/PrivateRoute";
+import BugattiInfo from "./Pages/BugattiInfo/BugattiInfo";
 
 const Route = createBrowserRouter([
     {
@@ -35,7 +36,8 @@ const Route = createBrowserRouter([
                 element: <MyCart></MyCart>
             },
             {
-
+                path: '/bugattiInfo',
+                element: <BugattiInfo></BugattiInfo>
             },
             {
 
