@@ -15,6 +15,7 @@ import FerrariInfo from "./Pages/FerrariInfo/FerrariInfo";
 import RollsRoyceInfo from "./Pages/RollsRoyceInfo/RollsRoyceInfo";
 import UpdateProduct from "./Pages/UpdateProduct/UpdateProduct";
 import ProductDetails from "./Pages/ProductDetails/ProductDetails";
+import Terms from "./Pages/Terms&Condition/Terms";
 
 const Route = createBrowserRouter([
     {
@@ -84,7 +85,11 @@ const Route = createBrowserRouter([
                 element: <PrivateRoute><ProductDetails></ProductDetails></PrivateRoute>,
                 loader: ({params}) => fetch(`http://localhost:5000/car/${params.id}`)
             },
-            
+            {
+                path: '/terms',
+                element: <Terms></Terms>
+            }
+
         ]
         
     }
