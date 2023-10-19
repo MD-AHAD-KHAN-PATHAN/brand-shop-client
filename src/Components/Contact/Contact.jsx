@@ -7,7 +7,7 @@ const Contact = () => {
     return (
 
         <div className="grid md:grid-cols-2 grid-cols-1">
-            <div className="">
+            <div className="" data-aos="fade-up" data-aos-duration="1500">
                 <h1 className="text-4xl font-bold">Contact Information</h1>
                 <p className="font-bold my-6 flex items-center gap-2"><span className='text-orange-400'><MdMarkEmailRead></MdMarkEmailRead></span>abcd@gmail.com</p>
                 <p className='flex gap-2 items-center'><span className='text-orange-400'><MdCall></MdCall></span>+088 3729 4848</p>
@@ -20,7 +20,7 @@ const Contact = () => {
                     
                 </div>
             </div>
-            <div className='md:mt-0 mt-6'>
+            <div className='md:mt-0 mt-6' data-aos="fade-up" data-aos-duration="2000">
 
                 <form>
                     <input className="w-full p-4 border-2 hover:shadow-xl border-orange-400 rounded-md" type="name" name="name" placeholder="Enter Your Full Name" />

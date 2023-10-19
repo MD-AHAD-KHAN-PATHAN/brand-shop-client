@@ -5,9 +5,9 @@ import CarCard from "../CarCard/CarCard";
 const LamborghiniInfo = () => {
     const cars = useLoaderData();
 
-    const photo1 = "https://i.ibb.co/0XkPBPy/b-mat-an-gelo-GEje-GPz3v-WA-unsplash.jpg";
+    const photo1 = "https://i.ibb.co/6bjq6Bk/kevin-bhagat-3c-Lpiv8h5so-unsplash.jpg";
     const photo2 = "https://i.ibb.co/0XkPBPy/b-mat-an-gelo-GEje-GPz3v-WA-unsplash.jpg";
-    const photo3 = "https://i.ibb.co/0XkPBPy/b-mat-an-gelo-GEje-GPz3v-WA-unsplash.jpg";
+    const photo3 = "https://i.ibb.co/8cjckwZ/adnan-pervaiz-VRX1j-Di-Ofik-unsplash.jpg";
 
     const photo = {photo1, photo2, photo3}
 

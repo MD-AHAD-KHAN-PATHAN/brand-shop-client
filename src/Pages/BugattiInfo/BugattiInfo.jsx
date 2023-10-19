@@ -6,8 +6,8 @@ const BugattiInfo = () => {
 
     const cars = useLoaderData();
 
-    const photo1 = "https://i.ibb.co/GtM7F1V/tim-meyer-t3vu-JWHY7w-unsplash.jpg";
-    const photo2 = "https://i.ibb.co/GtM7F1V/tim-meyer-t3vu-JWHY7w-unsplash.jpg";
+    const photo1 = "https://i.ibb.co/nzdNYLX/tim-meyer-As-T9-Dt11-Fk-A-unsplash.jpg";
+    const photo2 = "https://i.ibb.co/QjFBpt9/tim-meyer-X82r-Gvu3vm-A-unsplash.jpg";
     const photo3 = "https://i.ibb.co/GtM7F1V/tim-meyer-t3vu-JWHY7w-unsplash.jpg";
 
     const photo = {photo1, photo2, photo3}

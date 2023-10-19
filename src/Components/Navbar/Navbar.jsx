@@ -65,17 +65,17 @@ const Navbar = () => {
                             </label>
                             <ul tabIndex={0} className="menu dropdown-content mt-3 z-[2] p-2 shadow bg-base-100 rounded-box w-52">
                                 <li>
-                                    <button className="btn btn-sm  btn-ghost">{user.displayName}</button>
+                                    <button className="btn btn-ghost">{user.displayName}</button>
 
                                 </li>
                                 <li>
-                                    <Link to='/'><button onClick={logOut} className="btn btn-sm  btn-ghost">Logout</button></Link>
+                                    <Link to='/'><button onClick={logOut} className="btn btn-ghost">Logout</button></Link>
                                 </li>
                             </ul>
                         </div>
                             :
                             <Link to='/login'>
-                                <button className="btn btn-sm  btn-ghost" data-aos="fade-down">Login</button>
+                                <button className="btn btn-ghost" data-aos="fade-down">Login</button>
                             </Link>
                     }
                 </div>

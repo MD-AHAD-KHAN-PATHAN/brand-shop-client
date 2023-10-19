@@ -58,7 +58,7 @@ const Cart = ({ cart, mycart, setMycart }) => {
 
     return (
 
-        <div className='grid md:grid-cols-2 shadow-orange-400 shadow-xl overflow-hidden'>
+        <div className='grid md:grid-cols-2 shadow-orange-400 shadow-xl overflow-hidden' data-aos="flip-up" data-aos-duration="1000">
             <div className=''>
                 <img className='h-full md:rounded-l-lg' src={photo} alt="" />
             </div>

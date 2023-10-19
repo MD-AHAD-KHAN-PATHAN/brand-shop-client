@@ -7,8 +7,8 @@ const RollsRoyceInfo = () => {
    const cars = useLoaderData();
 
     const photo1 = "https://i.ibb.co/fDzQxTs/stevosdisposable-38-A4-i-0q-Ag-unsplash.jpg";
-    const photo2 = "https://i.ibb.co/fDzQxTs/stevosdisposable-38-A4-i-0q-Ag-unsplash.jpg";
-    const photo3 = "https://i.ibb.co/fDzQxTs/stevosdisposable-38-A4-i-0q-Ag-unsplash.jpg";
+    const photo2 = "https://i.ibb.co/2sR5xhp/marvin-meyer-2e2o-Ts8-L79-E-unsplash.jpg";
+    const photo3 = "https://i.ibb.co/1KT86kH/stevosdisposable-d5-K5-U0df-XA0-unsplash.jpg";
 
     const photo = {photo1, photo2, photo3}
 

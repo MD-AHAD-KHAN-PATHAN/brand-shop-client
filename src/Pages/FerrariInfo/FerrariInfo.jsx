@@ -6,8 +6,8 @@ const FerrariInfo = () => {
 
     const cars = useLoaderData();
 
-    const photo1 = "https://i.ibb.co/sKsvDw1/joshua-koblin-eq-W1-MPin-EV4-unsplash.jpg";
-    const photo2 = "https://i.ibb.co/sKsvDw1/joshua-koblin-eq-W1-MPin-EV4-unsplash.jpg";
+    const photo1 = "https://i.ibb.co/Ny34q4P/humberto-portillo-2-Jht-Lm92ans-unsplash.jpg";
+    const photo2 = "https://i.ibb.co/BGm9nVH/yuvraj-singh-tm-Ayn-VA-ih-E-unsplash.jpg";
     const photo3 = "https://i.ibb.co/sKsvDw1/joshua-koblin-eq-W1-MPin-EV4-unsplash.jpg";
 
     const photo = { photo1, photo2, photo3 }

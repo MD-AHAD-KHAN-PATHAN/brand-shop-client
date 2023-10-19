@@ -6,9 +6,9 @@ const BmwInfo = () => {
 
     const cars = useLoaderData();
 
-    const photo1 = "https://i.ibb.co/s6G0JhK/eugene-chystiakov-Bm-OTZ0-Dqc-k-unsplash.jpg";
+    const photo1 = "https://i.ibb.co/68fDvZn/rodan-can-6cq-JPe-TIuls-unsplash.jpg";
     const photo2 = "https://i.ibb.co/s6G0JhK/eugene-chystiakov-Bm-OTZ0-Dqc-k-unsplash.jpg";
-    const photo3 = "https://i.ibb.co/s6G0JhK/eugene-chystiakov-Bm-OTZ0-Dqc-k-unsplash.jpg";
+    const photo3 = "https://i.ibb.co/3FpKbNv/tyler-clemmensen-w-Lp-TPp2dzs-Y-unsplash.jpg";
 
     const photo = {photo1, photo2, photo3}
 

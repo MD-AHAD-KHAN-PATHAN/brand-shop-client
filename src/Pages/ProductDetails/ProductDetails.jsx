@@ -36,8 +36,8 @@ const ProductDetails = () => {
     return (
         <div className="min-h-screen lg:m-24 md:m-12 m-4">
             <div>
-                <img src={photo} alt="" />
-                <div className='mt-6 lg:px-20 md:px-10 px-4' >
+                <img src={photo} alt="" data-aos="zoom-in" data-aos-duration="1000" />
+                <div className='mt-6 lg:px-20 md:px-10 px-4' data-aos="fade-up" data-aos-duration="1500">
                     <div>
                         <h1 className="lg:text-5xl md:text-3xl text-xl font-bold text-center">{brand}</h1>
                         <h2 className="font-bold my-2">{name}</h2>

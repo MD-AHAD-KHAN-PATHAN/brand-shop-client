@@ -9,7 +9,7 @@ const MyCart = () => {
 
     return (
         <div className="min-h-screen lg:m-20 md:m-8 m-6">
-            <h1 className="lg:text-5xl md:text-3xl text-xl font-bold text-center mb-4">My <span className="text-orange-500">Collections</span></h1>
+            <h1 className="lg:text-5xl text-3xl font-bold text-center mb-4">My <span className="text-orange-500">Collections</span></h1>
             <div className="flex justify-center"><h1 className="w-20 px-6 py-1 bg-orange-500  mb-10"></h1></div>
 
             {

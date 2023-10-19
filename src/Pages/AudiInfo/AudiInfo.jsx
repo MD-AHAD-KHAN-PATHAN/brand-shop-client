@@ -5,8 +5,8 @@ import CarCard from "../CarCard/CarCard";
 const AudiInfo = () => {
     const cars = useLoaderData();
 
-    const photo1 = "https://i.ibb.co/VvQWDDY/velito-xd-I8d-Bx1-SA8-unsplash.jpg";
-    const photo2 = "https://i.ibb.co/VvQWDDY/velito-xd-I8d-Bx1-SA8-unsplash.jpg";
+    const photo1 = "https://i.ibb.co/jL0sxdQ/blake-meyer-CRNb-Hj-Naljo-unsplash.jpg";
+    const photo2 = "https://i.ibb.co/P1FwgMV/alan-king-1-R63ta-Co-Sn-M-unsplash.jpg";
     const photo3 = "https://i.ibb.co/VvQWDDY/velito-xd-I8d-Bx1-SA8-unsplash.jpg";
 
     const photo = { photo1, photo2, photo3 }

@@ -5,7 +5,7 @@ const Brand = ({ brand }) => {
     return (
 
         <Link to={`/${brand.route}`}>
-            <div className="relative">
+            <div className="relative" data-aos="zoom-in" data-aos-duration="1500">
                 <div className="">
                     <img className="w-full" src={brand.image} alt="" />
                 </div>
