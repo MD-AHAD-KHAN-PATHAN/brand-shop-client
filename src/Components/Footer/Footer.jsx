@@ -28,7 +28,7 @@ const Footer = () => {
             </footer>
             <footer className="footer px-10 py-4 border-t bg-orange-400 text-white border-orange-600">
                 <aside className="items-center grid-flow-col">
-                    <p>PixelScape Production Ltd. <br />Providing reliable tech since 1992</p>
+                    <p>AutoVerse Production Ltd. <br />Providing reliable Super Car since 1992</p>
                 </aside>
                 <nav className="md:place-self-center md:justify-self-end">
                     <div className="grid grid-flow-col gap-4">

@@ -44,11 +44,13 @@ const AddProduct = () => {
 
     return (
 
-        <div className="bg-[#F4F3F0] p-20">
-            <h1 className="text-5xl font-bold text-center text-[#374151] mb-8">Add New Car</h1>
+        <div className="bg-[#F4F3F0] lg:p-20 md:p-10 p-4">
+            <h1 className="text-5xl font-bold text-center text-[#374151] mb-4">Add <span className='text-orange-500'>New</span> Car</h1>
+            <div className="flex justify-center"><h1 className="w-20 px-6 py-1 bg-orange-500 mb-10"></h1></div>
+
             <form onSubmit={handleSubmit}>
-                <div className="flex gap-6">
-                    <div className="form-control w-1/2">
+                <div className="md:flex gap-6">
+                    <div className="form-control md:w-1/2">
                         <label className="label">
                             <span className="label-text">Brand Name</span>
                         </label>
@@ -56,7 +58,7 @@ const AddProduct = () => {
                             <input type="text" name="brand" placeholder="Enter Brand name" className="input w-full" required />
                         </label>
                     </div>
-                    <div className="form-control w-1/2">
+                    <div className="form-control md:w-1/2">
                         <label className="label">
                             <span className="label-text">Car Name</span>
                         </label>
@@ -65,8 +67,8 @@ const AddProduct = () => {
                         </label>
                     </div>
                 </div>
-                <div className="flex gap-6">
-                    <div className="form-control w-1/2">
+                <div className="md:flex gap-6">
+                    <div className="form-control md:w-1/2">
                         <label className="label">
                             <span className="label-text">Car Photo</span>
                         </label>
@@ -74,7 +76,7 @@ const AddProduct = () => {
                             <input type="text" name="photo" placeholder="Enter coffee supplier" className="input w-full" required/>
                         </label>
                     </div>
-                    <div className="form-control w-1/2">
+                    <div className="form-control md:w-1/2">
                         <label className="label">
                             <span className="label-text">Price</span>
                         </label>
@@ -83,8 +85,8 @@ const AddProduct = () => {
                         </label>
                     </div>
                 </div>
-                <div className="flex gap-6">
-                    <div className="form-control w-1/2">
+                <div className="md:flex gap-6">
+                    <div className="form-control md:w-1/2">
                         <label className="label">
                             <span className="label-text">Title</span>
                         </label>
@@ -92,7 +94,7 @@ const AddProduct = () => {
                             <input type="text" name="title" placeholder="Enter car title" className="input w-full" required/>
                         </label>
                     </div>
-                    <div className="form-control w-1/2">
+                    <div className="form-control md:w-1/2">
                         <label className="label">
                             <span className="label-text">Condition</span>
                         </label>
@@ -101,8 +103,8 @@ const AddProduct = () => {
                         </label>
                     </div>
                 </div>
-                <div className="flex gap-6">
-                    <div className="form-control w-1/2">
+                <div className="md:flex gap-6">
+                    <div className="form-control md:w-1/2">
                         <label className="label">
                             <span className="label-text">Description</span>
                         </label>
@@ -110,7 +112,7 @@ const AddProduct = () => {
                             <input type="text" name="description" placeholder="Enter car description" className="input w-full" required/>
                         </label>
                     </div>
-                    <div className="form-control w-1/2">
+                    <div className="form-control md:w-1/2">
                         <label className="label">
                             <span className="label-text">Rating</span>
                         </label>
@@ -121,7 +123,7 @@ const AddProduct = () => {
                 </div>
                 <div>
                     <div className="mt-6">
-                        <input type="submit" value="Add Car" className="py-2 text-white font-bold w-full bg-orange-500 border-2 border-orange-700" />
+                        <input type="submit" value="Add Car" className="py-2 text-white font-bold w-full bg-orange-500 border-2 border-orange-700 cursor-pointer" />
                     </div>
                 </div>
             </form>

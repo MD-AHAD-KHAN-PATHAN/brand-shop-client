@@ -1,5 +1,8 @@
 
-const Slider = ({photo}) => {
+const Slider = ({photo, info}) => {
+
+    const { title1, title2, title3, description1, description2, description3 } = info;
+
     return (
         <div className="carousel w-full">
             <div id="slide1" className="carousel-item relative w-full max-h-screen">
@@ -10,8 +13,8 @@ const Slider = ({photo}) => {
 
                     <div className="flex justify-center">
                         <div className="md:w-2/3 text-center">
-                            <h1 className="text-white lg:text-5xl md:text-3xl text-xl font-extrabold mb-4">Bugatti's Future Forward</h1>
-                            <i className="text-white">Bugatti pioneers the future of automotive technology. Join us as we push the boundaries of speed, power, and design, creating the next generation of performance-driven vehicles.</i>
+                            <h1 className="text-white lg:text-5xl md:text-3xl text-xl font-extrabold mb-4">{title1}</h1>
+                            <i className="text-white">{description1}</i>
                         </div>
                     </div>
 
@@ -25,8 +28,8 @@ const Slider = ({photo}) => {
                     <a href="#slide1" className="btn btn-circle">❮</a>
                     <div className="flex justify-center">
                         <div className="md:w-2/3 text-center">
-                            <h1 className="text-white lg:text-5xl md:text-3xl text-xl font-extrabold mb-4">Bugatti's Vision</h1>
-                            <i className="text-white">Bugatti's vision transcends conventional boundaries. We fuse luxury and performance, creating a lifestyle where every journey is a testament to sophistication and speed.</i>
+                            <h1 className="text-white lg:text-5xl md:text-3xl text-xl font-extrabold mb-4">{title2}</h1>
+                            <i className="text-white">{description2}</i>
                         </div>
                     </div>
                     <a href="#slide3" className="btn btn-circle">❯</a>
@@ -38,8 +41,8 @@ const Slider = ({photo}) => {
                     <a href="#slide2" className="btn btn-circle">❮</a>
                     <div className="flex justify-center">
                         <div className="md:w-2/3 text-center">
-                            <h1 className="text-white lg:text-5xl md:text-3xl text-xl font-extrabold mb-4">Bugatti's Craftsmanship</h1>
-                            <i className="text-white">At Bugatti, perfection is in the details. Witness the artistry and precision that go into crafting every component, from engines to interiors, ensuring an unrivaled driving experience.</i>
+                            <h1 className="text-white lg:text-5xl md:text-3xl text-xl font-extrabold mb-4">{title3}</h1>
+                            <i className="text-white">{description3}</i>
                         </div>
                     </div>
                     <a href="#slide1" className="btn btn-circle">❯</a>

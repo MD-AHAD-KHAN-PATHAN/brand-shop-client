@@ -49,7 +49,9 @@ const UpdateProduct = () => {
 
     return (
         <div className="bg-[#F4F3F0] lg:p-20 md:p-12 p-4">
-            <h1 className="lg:text-5xl md:text-3xl text-xl font-bold text-center text-[#374151] mb-8">Update Car Information</h1>
+            <h1 className="lg:text-5xl md:text-3xl text-xl font-bold text-center text-[#374151] mb-4"><span className='text-orange-500'>Update</span> Information</h1>
+            <div className="flex justify-center"><h1 className="w-20 px-6 py-1 bg-orange-500 mb-10"></h1></div>
+
             <form onSubmit={handleUpdate}>
                 <div className="md:flex gap-6">
                     <div className="form-control md:w-1/2">
@@ -125,7 +127,7 @@ const UpdateProduct = () => {
                 </div>
                 <div>
                     <div className="mt-6">
-                        <input type="submit" value="Update Car" className="py-2 text-white font-bold w-full bg-orange-500 border-2 border-orange-700" />
+                        <input type="submit" value="Update Car" className="py-2 text-white font-bold w-full bg-orange-500 border-2 border-orange-700 cursor-pointer" />
                     </div>
                 </div>
             </form>

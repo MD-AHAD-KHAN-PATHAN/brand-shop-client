@@ -41,52 +41,50 @@ const Route = createBrowserRouter([
             },
             {
                 path: '/myCart',
-                element: <MyCart></MyCart>,
+                element: <PrivateRoute><MyCart></MyCart></PrivateRoute>,
                 loader: () => fetch('http://localhost:5000/myCart')
             },
             {
                 path: '/bugattiInfo',
-                element: <BugattiInfo></BugattiInfo>,
+                element: <PrivateRoute><BugattiInfo></BugattiInfo></PrivateRoute>,
                 loader: () => fetch('http://localhost:5000/bugatti')
             },
             {
                 path: '/audiInfo',
-                element: <AudiInfo></AudiInfo>,
+                element: <PrivateRoute><AudiInfo></AudiInfo></PrivateRoute>,
                 loader: () => fetch('http://localhost:5000/audi')
             },
             {
                 path: '/bmwInfo',
-                element: <BmwInfo></BmwInfo>,
+                element: <PrivateRoute><BmwInfo></BmwInfo></PrivateRoute>,
                 loader: () => fetch('http://localhost:5000/bmw')
             },
             {
                 path: '/lamborghiniInfo',
-                element: <LamborghiniInfo></LamborghiniInfo>,
+                element: <PrivateRoute><LamborghiniInfo></LamborghiniInfo></PrivateRoute>,
                 loader: () => fetch('http://localhost:5000/lamborghini')
             },
             {
                 path: '/ferrariInfo',
-                element: <FerrariInfo></FerrariInfo>,
+                element: <PrivateRoute><FerrariInfo></FerrariInfo></PrivateRoute>,
                 loader: () => fetch('http://localhost:5000/ferrari')
             },
             {
                 path: '/rollsroyceInfo',
-                element: <RollsRoyceInfo></RollsRoyceInfo>,
+                element: <PrivateRoute><RollsRoyceInfo></RollsRoyceInfo></PrivateRoute>,
                 loader: () => fetch('http://localhost:5000/rollsroyce')
             },
             {
                 path: '/update/:id',
-                element: <UpdateProduct></UpdateProduct>,
+                element: <PrivateRoute><UpdateProduct></UpdateProduct></PrivateRoute>,
                 loader: ({params}) => fetch(`http://localhost:5000/car/${params.id}`)
             },
             {
                 path: '/details/:id',
-                element: <ProductDetails></ProductDetails>,
+                element: <PrivateRoute><ProductDetails></ProductDetails></PrivateRoute>,
                 loader: ({params}) => fetch(`http://localhost:5000/car/${params.id}`)
             },
-            {
-
-            }
+            
         ]
         
     }

@@ -10,9 +10,9 @@ const Navbar = () => {
     const navLink = <>
         <li><NavLink to='/'>Home</NavLink></li>
         <li><NavLink to='/terms'>Terms & Condition</NavLink></li>
+        <li><NavLink to='/addProduct'>Add Product</NavLink></li>
         {
             user && <>
-                <li><NavLink to='/addProduct'>Add Product</NavLink></li>
                 <li><NavLink to='/myCart'>My Cart</NavLink></li>
             </>
         }
