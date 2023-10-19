@@ -10,7 +10,7 @@ const Terms = () => {
                     Acceptance of Terms
                 </div>
                 <div className="collapse-content">
-                    <p>By using the services provided by [Your Company Name] (referred to as "we," "us," or "the Company"), you agree to comply with and be bound by these Terms and Conditions. If you do not agree to these terms, please refrain from using our services.</p>
+                    <p>By using the services provided by Autoverse, you agree to comply with and be bound by these Terms and Conditions. If you do not agree to these terms, please refrain from using our services.</p>
                 </div>
             </div>
             <div data-aos="zoom-in-down" className="collapse collapse-arrow bg-base-200 my-4">
