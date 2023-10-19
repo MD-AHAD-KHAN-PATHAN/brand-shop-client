@@ -1,10 +1,12 @@
 import { Link, NavLink } from "react-router-dom";
 import UseHooks from "../Hooks/UseHooks";
+import { useState } from "react";
 
 
 const Navbar = () => {
 
     const { user, logOut } = UseHooks();
+    const [currentTheme, setCurrentTheme] = useState('light');
 
 
     const navLink = <>
@@ -13,6 +15,23 @@ const Navbar = () => {
         <li><NavLink to='/addProduct'>Add Product</NavLink></li>
         <li><NavLink to='/myCart'>My Cart</NavLink></li>
     </>
+
+    function toggleTheme() {
+        const body = document.body;
+        const currentTheme = body.getAttribute('data-theme');
+
+        const newTheme = currentTheme === 'light' ? 'dark' : 'light';
+
+        body.setAttribute('data-theme', newTheme);
+
+        return newTheme;
+    }
+
+    const handleToggleTheme = () => {
+        const newTheme = toggleTheme();
+        setCurrentTheme(newTheme);
+    };
+
 
     return (
         <div>
@@ -34,6 +53,8 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div className="navbar-end">
+
+                    <button className="btn mr-4" onClick={handleToggleTheme}>{currentTheme === 'light' ? 'Dark' : 'Light'}</button>
 
                     {
                         user ? <div className="dropdown dropdown-end" data-aos="fade-down">

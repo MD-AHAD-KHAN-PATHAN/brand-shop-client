@@ -69,9 +69,9 @@ const Cart = ({ cart, mycart, setMycart }) => {
                     <i>{title}</i>
                 </div>
                 <div className='flex justify-between my-2'>
-                    <button className='flex items-center py-2 px-4 bg-gray-300'><span className='text-orange-500 mr-2'><BsFillStarFill></BsFillStarFill></span> <span>{rating}</span></button>
-                    <button className='flex py-2 px-4 items-center bg-gray-300' ><span className='text-orange-500 mr-2'><BiSolidDollarCircle></BiSolidDollarCircle></span>{price}</button>
-                    <button className='flex py-2 px-4 items-center bg-gray-300' ><span className='text-orange-500 mr-2'><BsCarFrontFill></BsCarFrontFill></span>{condition}</button>
+                    <button className='flex items-center py-2 px-4 bg-base-300'><span className='text-orange-500 mr-2'><BsFillStarFill></BsFillStarFill></span> <span>{rating}</span></button>
+                    <button className='flex py-2 px-4 items-center bg-base-300' ><span className='text-orange-500 mr-2'><BiSolidDollarCircle></BiSolidDollarCircle></span>{price}</button>
+                    <button className='flex py-2 px-4 items-center bg-base-300' ><span className='text-orange-500 mr-2'><BsCarFrontFill></BsCarFrontFill></span>{condition}</button>
                 </div>
                 <div className='flex justify-end'>
                     <button onClick={() => handleDelete(_id)} className='flex items-center py-2 px-4 bg-orange-400 font-bold text-white rounded-md border-2 border-orange-600'>Delete Car</button>

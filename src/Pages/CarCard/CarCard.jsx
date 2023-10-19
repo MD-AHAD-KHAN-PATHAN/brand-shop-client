@@ -16,9 +16,9 @@ const CarCard = ({ car }) => {
                         <i>{title}</i>
                     </div>
                     <div className='flex justify-between my-4'>
-                        <button className='flex items-center py-2 px-4 bg-gray-300'><span className='text-orange-500 mr-2'><BsFillStarFill></BsFillStarFill></span> <span>{rating}</span></button>
-                        <button className='flex py-2 px-4 items-center bg-gray-300' ><span className='text-orange-500 mr-2'><BiSolidDollarCircle></BiSolidDollarCircle></span>{price}</button>
-                        <button className='flex py-2 px-4 items-center bg-gray-300' ><span className='text-orange-500 mr-2'><BsCarFrontFill></BsCarFrontFill></span>{condition}</button>
+                        <button className='flex items-center py-2 px-4 bg-base-300'><span className='text-orange-500 mr-2'><BsFillStarFill></BsFillStarFill></span> <span>{rating}</span></button>
+                        <button className='flex py-2 px-4 items-center bg-base-300' ><span className='text-orange-500 mr-2'><BiSolidDollarCircle></BiSolidDollarCircle></span>{price}</button>
+                        <button className='flex py-2 px-4 items-center bg-base-300' ><span className='text-orange-500 mr-2'><BsCarFrontFill></BsCarFrontFill></span>{condition}</button>
                     </div>
                     <div className='flex justify-between'>
                         <Link to={`/update/${_id}`}>
