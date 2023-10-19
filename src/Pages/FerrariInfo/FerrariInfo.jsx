@@ -5,7 +5,7 @@ import CarCard from "../CarCard/CarCard";
 const FerrariInfo = () => {
 
     const cars = useLoaderData();
-    console.log(cars);
+
     const photo1 = "https://i.ibb.co/sKsvDw1/joshua-koblin-eq-W1-MPin-EV4-unsplash.jpg";
     const photo2 = "https://i.ibb.co/sKsvDw1/joshua-koblin-eq-W1-MPin-EV4-unsplash.jpg";
     const photo3 = "https://i.ibb.co/sKsvDw1/joshua-koblin-eq-W1-MPin-EV4-unsplash.jpg";
