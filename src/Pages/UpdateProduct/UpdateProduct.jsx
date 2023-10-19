@@ -4,6 +4,7 @@ import Swal from 'sweetalert2'
 const UpdateProduct = () => {
 
     const carLodedData = useLoaderData();
+    
 
     const { _id, brand, name, photo, price, title, condition, description, rating } = carLodedData;
     
@@ -34,7 +35,7 @@ const UpdateProduct = () => {
             .then(res => res.json())
             .then(data => {
                 console.log(data);
-                if (data.insertedId) {
+                if (data.modifiedCount > 0) {
                     Swal.fire({
                         title: 'Good Job!',
                         text: 'Your car details updated successfully',
@@ -47,11 +48,11 @@ const UpdateProduct = () => {
     }
 
     return (
-        <div className="bg-[#F4F3F0] p-20">
-            <h1 className="text-5xl font-bold text-center text-[#374151] mb-8">Update Car Information</h1>
+        <div className="bg-[#F4F3F0] lg:p-20 md:p-12 p-4">
+            <h1 className="lg:text-5xl md:text-3xl text-xl font-bold text-center text-[#374151] mb-8">Update Car Information</h1>
             <form onSubmit={handleUpdate}>
-                <div className="flex gap-6">
-                    <div className="form-control w-1/2">
+                <div className="md:flex gap-6">
+                    <div className="form-control md:w-1/2">
                         <label className="label">
                             <span className="label-text">Brand Name</span>
                         </label>
@@ -59,7 +60,7 @@ const UpdateProduct = () => {
                             <input type="text" name="brand" defaultValue={brand} placeholder="Enter Brand name" className="input w-full" required />
                         </label>
                     </div>
-                    <div className="form-control w-1/2">
+                    <div className="form-control md:w-1/2">
                         <label className="label">
                             <span className="label-text">Car Name</span>
                         </label>
@@ -68,8 +69,8 @@ const UpdateProduct = () => {
                         </label>
                     </div>
                 </div>
-                <div className="flex gap-6">
-                    <div className="form-control w-1/2">
+                <div className="md:flex gap-6">
+                    <div className="form-control md:w-1/2">
                         <label className="label">
                             <span className="label-text">Car Photo</span>
                         </label>
@@ -77,7 +78,7 @@ const UpdateProduct = () => {
                             <input type="text" name="photo" defaultValue={photo} placeholder="Enter coffee supplier" className="input w-full" required />
                         </label>
                     </div>
-                    <div className="form-control w-1/2">
+                    <div className="form-control md:w-1/2">
                         <label className="label">
                             <span className="label-text">Price</span>
                         </label>
@@ -86,8 +87,8 @@ const UpdateProduct = () => {
                         </label>
                     </div>
                 </div>
-                <div className="flex gap-6">
-                    <div className="form-control w-1/2">
+                <div className="md:flex gap-6">
+                    <div className="form-control md:w-1/2">
                         <label className="label">
                             <span className="label-text">Title</span>
                         </label>
@@ -95,7 +96,7 @@ const UpdateProduct = () => {
                             <input type="text" name="title" defaultValue={title} placeholder="Enter car title" className="input w-full" required />
                         </label>
                     </div>
-                    <div className="form-control w-1/2">
+                    <div className="form-control md:w-1/2">
                         <label className="label">
                             <span className="label-text">Condition</span>
                         </label>
@@ -104,8 +105,8 @@ const UpdateProduct = () => {
                         </label>
                     </div>
                 </div>
-                <div className="flex gap-6">
-                    <div className="form-control w-1/2">
+                <div className="md:flex gap-6">
+                    <div className="form-control md:w-1/2">
                         <label className="label">
                             <span className="label-text">Description</span>
                         </label>
@@ -113,7 +114,7 @@ const UpdateProduct = () => {
                             <input type="text" name="description" defaultValue={description} placeholder="Enter car description" className="input w-full" required />
                         </label>
                     </div>
-                    <div className="form-control w-1/2">
+                    <div className="form-control md:w-1/2">
                         <label className="label">
                             <span className="label-text">Rating</span>
                         </label>
