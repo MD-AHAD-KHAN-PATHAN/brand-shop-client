@@ -47,32 +47,32 @@ const Route = createBrowserRouter([
             },
             {
                 path: '/bugattiInfo',
-                element: <PrivateRoute><BugattiInfo></BugattiInfo></PrivateRoute>,
+                element: <BugattiInfo></BugattiInfo>,
                 loader: () => fetch('http://localhost:5000/bugatti')
             },
             {
                 path: '/audiInfo',
-                element: <PrivateRoute><AudiInfo></AudiInfo></PrivateRoute>,
+                element: <AudiInfo></AudiInfo>,
                 loader: () => fetch('http://localhost:5000/audi')
             },
             {
                 path: '/bmwInfo',
-                element: <PrivateRoute><BmwInfo></BmwInfo></PrivateRoute>,
+                element: <BmwInfo></BmwInfo>,
                 loader: () => fetch('http://localhost:5000/bmw')
             },
             {
                 path: '/lamborghiniInfo',
-                element: <PrivateRoute><LamborghiniInfo></LamborghiniInfo></PrivateRoute>,
+                element: <LamborghiniInfo></LamborghiniInfo>,
                 loader: () => fetch('http://localhost:5000/lamborghini')
             },
             {
                 path: '/ferrariInfo',
-                element: <PrivateRoute><FerrariInfo></FerrariInfo></PrivateRoute>,
+                element: <FerrariInfo></FerrariInfo>,
                 loader: () => fetch('http://localhost:5000/ferrari')
             },
             {
                 path: '/rollsroyceInfo',
-                element: <PrivateRoute><RollsRoyceInfo></RollsRoyceInfo></PrivateRoute>,
+                element: <RollsRoyceInfo></RollsRoyceInfo>,
                 loader: () => fetch('http://localhost:5000/rollsroyce')
             },
             {

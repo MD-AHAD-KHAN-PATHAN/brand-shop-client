@@ -25,7 +25,7 @@ const Home = () => {
                 <div className="flex justify-center"><h1 className="w-20 px-6 py-1 bg-orange-500  mb-10"></h1></div>
                 <Services></Services>
 
-                <h1 className="lg:text-5xl text-3xl font-bold text-center mb-4">Contact <span className="text-orange-500">Form</span></h1>
+                <h1 className="lg:text-5xl text-3xl font-bold text-center mb-4"><span className="text-orange-500">Contact</span> Form</h1>
                 <div className="flex justify-center"><h1 className="w-20 px-6 py-1 bg-orange-500  mb-10"></h1></div>
                 <Contact></Contact>
             </div>
