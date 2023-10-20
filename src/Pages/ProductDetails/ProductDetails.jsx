@@ -12,7 +12,7 @@ const ProductDetails = () => {
     const handleClick = () => {
         const addCart = {brand, name, photo, price,title, description, rating, condition}
 
-        fetch('http://localhost:5000/myCar', {
+        fetch('https://brand-shop-server-ten-kappa.vercel.app/myCar', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

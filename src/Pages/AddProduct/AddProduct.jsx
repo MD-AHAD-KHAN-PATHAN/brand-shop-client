@@ -20,7 +20,7 @@ const AddProduct = () => {
 
         console.log(carDetails)
 
-        fetch('http://localhost:5000/car', {
+        fetch('https://brand-shop-server-ten-kappa.vercel.app/car', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

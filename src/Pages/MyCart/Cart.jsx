@@ -26,7 +26,7 @@ const Cart = ({ cart, mycart, setMycart }) => {
             reverseButtons: true
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`http://localhost:5000/mycart/${_id}`, {
+                fetch(`https://brand-shop-server-ten-kappa.vercel.app/mycart/${_id}`, {
                     method: 'DELETE',
                 })
                 .then(res => res.json())

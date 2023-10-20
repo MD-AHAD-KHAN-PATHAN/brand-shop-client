@@ -2,6 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 import UseHooks from "../Hooks/UseHooks";
 import { useState } from "react";
 
+// https://brand-shop-server-ten-kappa.vercel.app/
 
 const Navbar = () => {
 
@@ -35,7 +36,7 @@ const Navbar = () => {
 
     return (
         <div>
-            <div className="navbar bg-base-100">
+            <div className="navbar bg-base-100" data-aos="fade-down" data-aos-easing="linear" data-aos-duration="1000">
                 <div className="navbar-start" data-aos="fade-down">
                     <div className="dropdown">
                         <label tabIndex={0} className="btn btn-ghost lg:hidden">
