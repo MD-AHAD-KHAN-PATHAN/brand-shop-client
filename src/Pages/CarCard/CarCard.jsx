@@ -7,7 +7,7 @@ const CarCard = ({ car }) => {
 
     return (
 
-        <div data-aos="zoom-out-down" data-aos-duration="1500">
+        <div data-aos="zoom-in-down" data-aos-duration="1500">
             <img src={photo} alt="" />
             <div className='border-x-2 border-b-2 p-4' >
                 <div>
