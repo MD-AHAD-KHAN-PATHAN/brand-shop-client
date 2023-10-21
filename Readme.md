@@ -7,9 +7,9 @@
 
 
 
-## [ Live Link ](https://shiny-bavarois-6d5034.netlify.app/)
+## [ Live Link ](https://astounding-basbousa-370fa6.netlify.app/)
 
-Click here for the live project link : [https://shiny-bavarois-6d5034.netlify.app/]
+Click here for the live project link : [https://astounding-basbousa-370fa6.netlify.app/]
 
 # About My Project
 
