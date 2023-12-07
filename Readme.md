@@ -7,9 +7,9 @@
 
 
 
-## [ Live Link ](https://astounding-basbousa-370fa6.netlify.app/)
+## [ Live Link ](https://fantastic-cassata-eb2a45.netlify.app/)
 
-Click here for the live project link : [https://astounding-basbousa-370fa6.netlify.app/]
+Click here for the live project link : [https://fantastic-cassata-eb2a45.netlify.app/]
 
 # About My Project
 
