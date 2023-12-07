@@ -1,9 +1,9 @@
 # Brand-Shop
 
 
-## [ Client Side Private repo](https://classroom.github.com/a/AhpcvLRc)
+## [ Client Side Private repo](https://github.com/MD-AHAD-KHAN-PATHAN/brand-shop-client)
 
-## [ Server Side Private repo](https://classroom.github.com/a/tyhd_MNK)
+## [ Server Side Private repo](https://github.com/MD-AHAD-KHAN-PATHAN/brand-shop-server)
 
 
 
