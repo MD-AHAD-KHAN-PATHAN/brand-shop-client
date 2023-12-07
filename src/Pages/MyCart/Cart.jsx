@@ -26,7 +26,7 @@ const Cart = ({ cart, mycart, setMycart }) => {
             reverseButtons: true
         }).then((result) => {
             if (result.isConfirmed) {
-                fetch(`https://brand-shop-server-ten-kappa.vercel.app/mycart/${_id}`, {
+                fetch(`https://brand-shop-server-zeta-nine.vercel.app/mycart/${_id}`, {
                     method: 'DELETE',
                 })
                 .then(res => res.json())
@@ -38,7 +38,7 @@ const Cart = ({ cart, mycart, setMycart }) => {
                             'Your car has been deleted.',
                             'success'
                         )
-                        const remaining = mycart.filter( cart => cart._id !== _id);
+                        const remaining = mycart?.filter( cart => cart?._id !== _id);
                         setMycart(remaining);
                     }
                 })

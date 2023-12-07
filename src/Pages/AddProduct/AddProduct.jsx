@@ -20,7 +20,7 @@ const AddProduct = () => {
 
         console.log(carDetails)
 
-        fetch('https://brand-shop-server-ten-kappa.vercel.app/car', {
+        fetch('https://brand-shop-server-zeta-nine.vercel.app/car', {
             method: 'POST',
             headers: {
                 'content-type': 'application/json'

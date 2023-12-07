@@ -2,7 +2,7 @@ import { Link, NavLink } from "react-router-dom";
 import UseHooks from "../Hooks/UseHooks";
 import { useState } from "react";
 
-// https://brand-shop-server-ten-kappa.vercel.app/
+// https://brand-shop-server-zeta-nine.vercel.app/
 
 const Navbar = () => {
 

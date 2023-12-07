@@ -43,47 +43,47 @@ const Route = createBrowserRouter([
             {
                 path: '/myCart',
                 element: <PrivateRoute><MyCart></MyCart></PrivateRoute>,
-                loader: () => fetch('https://brand-shop-server-ten-kappa.vercel.app/myCart')
+                loader: () => fetch('https://brand-shop-server-zeta-nine.vercel.app/myCart')
             },
             {
                 path: '/bugattiInfo',
                 element: <BugattiInfo></BugattiInfo>,
-                loader: () => fetch('https://brand-shop-server-ten-kappa.vercel.app/bugatti')
+                loader: () => fetch('https://brand-shop-server-zeta-nine.vercel.app/bugatti')
             },
             {
                 path: '/audiInfo',
                 element: <AudiInfo></AudiInfo>,
-                loader: () => fetch('https://brand-shop-server-ten-kappa.vercel.app/audi')
+                loader: () => fetch('https://brand-shop-server-zeta-nine.vercel.app/audi')
             },
             {
                 path: '/bmwInfo',
                 element: <BmwInfo></BmwInfo>,
-                loader: () => fetch('https://brand-shop-server-ten-kappa.vercel.app/bmw')
+                loader: () => fetch('https://brand-shop-server-zeta-nine.vercel.app/bmw')
             },
             {
                 path: '/lamborghiniInfo',
                 element: <LamborghiniInfo></LamborghiniInfo>,
-                loader: () => fetch('https://brand-shop-server-ten-kappa.vercel.app/lamborghini')
+                loader: () => fetch('https://brand-shop-server-zeta-nine.vercel.app/lamborghini')
             },
             {
                 path: '/ferrariInfo',
                 element: <FerrariInfo></FerrariInfo>,
-                loader: () => fetch('https://brand-shop-server-ten-kappa.vercel.app/ferrari')
+                loader: () => fetch('https://brand-shop-server-zeta-nine.vercel.app/ferrari')
             },
             {
                 path: '/rollsroyceInfo',
                 element: <RollsRoyceInfo></RollsRoyceInfo>,
-                loader: () => fetch('https://brand-shop-server-ten-kappa.vercel.app/rollsroyce')
+                loader: () => fetch('https://brand-shop-server-zeta-nine.vercel.app/rollsroyce')
             },
             {
                 path: '/update/:id',
                 element: <PrivateRoute><UpdateProduct></UpdateProduct></PrivateRoute>,
-                loader: ({params}) => fetch(`https://brand-shop-server-ten-kappa.vercel.app/car/${params.id}`)
+                loader: ({params}) => fetch(`https://brand-shop-server-zeta-nine.vercel.app/car/${params.id}`)
             },
             {
                 path: '/details/:id',
                 element: <PrivateRoute><ProductDetails></ProductDetails></PrivateRoute>,
-                loader: ({params}) => fetch(`https://brand-shop-server-ten-kappa.vercel.app/car/${params.id}`)
+                loader: ({params}) => fetch(`https://brand-shop-server-zeta-nine.vercel.app/car/${params.id}`)
             },
             {
                 path: '/terms',
