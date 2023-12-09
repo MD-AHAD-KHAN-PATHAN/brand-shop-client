@@ -1,10 +1,6 @@
 # Brand-Shop
 
-
-## [ Client Side Private repo](https://github.com/MD-AHAD-KHAN-PATHAN/brand-shop-client)
-
-## [ Server Side Private repo](https://github.com/MD-AHAD-KHAN-PATHAN/brand-shop-server)
-
+## [ Server Side ](https://github.com/MD-AHAD-KHAN-PATHAN/brand-shop-server)
 
 
 ## [ Live Link ](https://fantastic-cassata-eb2a45.netlify.app/)
