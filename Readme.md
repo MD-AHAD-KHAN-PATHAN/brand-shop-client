@@ -1,6 +1,6 @@
 # Brand-Shop
 
-## [ Server Side ](https://github.com/MD-AHAD-KHAN-PATHAN/brand-shop-server)
+## [ Server Side Link ](https://github.com/MD-AHAD-KHAN-PATHAN/brand-shop-server)
 
 
 ## [ Live Link ](https://fantastic-cassata-eb2a45.netlify.app/)
