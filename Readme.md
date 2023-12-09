@@ -23,7 +23,7 @@ Click here for the live project link : [https://fantastic-cassata-eb2a45.netlify
 
 - Car Details Management: Users can view and explore detailed information about the supercars, including specifications, images, and pricing.
 
-- Cart Functionality: My project incorporates a shopping cart feature, allowing users to add supercars to their cart for future reference and potential purchase.
+- Cart Functionality: My project incorporates a shopping cart feature, allowing users to add supercars to their cart for future reference and potential purchases.
 
 - Adding Car Details: Registered users can add new car details to the database, contributing to the catalog and keeping it up-to-date.
 
